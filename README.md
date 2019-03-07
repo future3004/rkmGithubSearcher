@@ -1,4 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+RICHARD KALIBBALA
+
+## ABOUT
+A ReactJS App where you can search any Github user and see their profile. It also uses Auth0 for signing up and verifification
 
 ## Available Scripts
 

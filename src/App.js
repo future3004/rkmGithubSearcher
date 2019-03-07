@@ -104,10 +104,12 @@ class App extends Component {
   auth0 = new auth0.WebAuth({
     domain: 'richardkm.auth0.com',
     clientID: 'hWHv16MKA44KMsGH3nkctwWbpaW4gXM3',
-    redirectUri: 'http://localhost:3000',
+    redirectUri: 'https://infallible-hamilton-bfa3e4.netlify.com/',  // --> for production
     responseType: 'token id_token',
     scope: 'openid'
   });
+
+  //redirectUri: 'http://localhost:3000'--> for dev, //https://infallible-hamilton-bfa3e4.netlify.com/ --> for production
 
   login() {
    this.auth0.authorize();
