@@ -16,7 +16,7 @@ class Header extends Component {
     if(this.props.idToken){
       page = <NavItem onClick={this.onLogout.bind(this)} href="#"> Logout</NavItem>
     } else{
-      page = <NavItem onClick={this.onLogin.bind(this)} href="#"> Login</NavItem>
+      page = <NavItem Click={this.onLogin.bind(this)} href="#"> Login</NavItem>
     }
 
     return(

@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css";
 import Github from './Github';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 import auth0 from 'auth0-js';
 import Auth0Lock from "auth0-lock";
 
@@ -212,6 +213,8 @@ class App extends Component {
           onLogin={this.login}
            />
          {gitty}
+
+        
       </div>
     );
   }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Profile from './Components/Profile';
 import Search from './Components/Search';
+import Footer from './Components/Footer';
 
 //hiteshchoudhary
 
@@ -52,6 +53,7 @@ class Github extends Component {
               <Search searchProfile={this.getProfile.bind(this)} />
               <Profile userData={this.state}/>
             </section>
+
       </div>
     );
   }
