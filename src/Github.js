@@ -49,10 +49,15 @@ class Github extends Component {
   render() {
     return(
       <div>
-            <section id="card">
-              <Search searchProfile={this.getProfile.bind(this)} />
-              <Profile userData={this.state}/>
-            </section>
+              <section id="card">
+                <Search searchProfile={this.getProfile.bind(this)} />
+                <Profile userData={this.state}/>
+
+              </section>
+
+          <div className="MyFooter">
+            <Footer />
+          </div>
 
       </div>
     );

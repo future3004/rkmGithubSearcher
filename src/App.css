@@ -50,6 +50,17 @@ a {
   transform: translateX(-50%) translateY(-50%);
 }
 
+.MyFooter {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 380px;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
 
 
 .search-box input[type='search'] {

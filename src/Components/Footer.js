@@ -1,45 +1,41 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Footer extends Component {
   render(){
     return(
       <div>
 
-        <footer>
-     <div className="container">
-       <div className="row">
-         <div className="col-lg-8 col-md-10 mx-auto">
-           <ul className="list-inline text-center">
-             <li className="list-inline-item">
-               <a href="#">
-                 <span className="fa-stack fa-lg">
-                   <i className="fas fa-circle fa-stack-2x"></i>
-                   <i className="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                 </span>
-               </a>
-             </li>
-             <li className="list-inline-item">
-               <a href="#">
-                 <span className="fa-stack fa-lg">
-                   <i className="fas fa-circle fa-stack-2x"></i>
-                   <i className="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                 </span>
-               </a>
-             </li>
-             <li className="list-inline-item">
-               <a href="#">
-                 <span className="fa-stack fa-lg">
-                   <i className="fas fa-circle fa-stack-2x"></i>
-                   <i className="fab fa-github fa-stack-1x fa-inverse"></i>
-                 </span>
-               </a>
-             </li>
-           </ul>
-           <p className="copyright text-muted">Copyright &copy; Richard KM 2018</p>
-         </div>
-       </div>
-     </div>
-   </footer>
+        <footer className="page-footer">
+          <div className="container">
+            <div className="row">
+              <div className="col l6 s12">
+                <h5 className="white-text">More Info</h5>
+                <p className="grey-text text-lighten-4">A Richard Kalibbala Production.</p>
+              </div>
+              <div className="col l4 offset-l2 s12">
+                <h5 className="white-text">Quick Links</h5>
+                <ul>
+                  <li><a className="grey-text text-lighten-3" href="#" >Home</a></li>
+                  <li><a className="grey-text text-lighten-3" href="#">How To Use</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="footer-copyright">
+            <div className="container">
+            © 2018 Richard Kalibbala
+              <a
+                        className="grey-text text-lighten-4 right App-link"
+                        href="https://kalibbala.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Visit My Site here
+              </a>
+            </div>
+          </div>
+        </footer>
 
       </div>
       );
