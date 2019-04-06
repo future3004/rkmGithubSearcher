@@ -16,7 +16,7 @@ class Header extends Component {
     if(this.props.idToken){
       page = <NavItem onClick={this.onLogout.bind(this)} href="#"> Logout</NavItem>
     } else{
-      page = <NavItem Click={this.onLogin.bind(this)} href="#"> Login</NavItem>
+      page = <NavItem onClick={this.onLogin.bind(this)} href="#"> Login</NavItem> // wow; this tiny error (from: Click) to (onClick) was making me scratch head for days
     }
 
     return(

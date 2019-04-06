@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Emoji from 'react-emoji-render';
+import { Twemoji } from 'react-emoji-render';
 
 class Footer extends Component {
   render(){
@@ -14,10 +16,10 @@ class Footer extends Component {
                 <p className="grey-text text-lighten-4">A Richard Kalibbala Production.</p>
               </div>
               <div className="col l4 offset-l2 s12">
-                <h5 className="white-text">Quick Links</h5>
+                <h5 className="white-text">Made With Heart And Love!</h5>
                 <ul>
-                  <li><a className="grey-text text-lighten-3" href="#" >Home</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#">How To Use</a></li>
+                  <li><Twemoji text=":open_hands: :computer:" /></li>
+                  <li><Emoji text=" ❤️ " /></li>
                 </ul>
               </div>
             </div>
